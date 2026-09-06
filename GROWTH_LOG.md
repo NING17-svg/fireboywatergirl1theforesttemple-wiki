@@ -6,6 +6,13 @@ Record every growth-relevant edit here. Keep entries short, factual, and useful 
 
 ## Change Log
 
+### 2026-09-06 - Adsterra six-unit codes wired into canonical ads config
+
+- Task: Populate the standard `src/data/ads.ts` with the six real Adsterra placement codes (Native Banner, Banner 728x90, Banner 468x60, Banner 320x50, Banner 160x600, Smartlink) for fireboywatergirl1theforesttemple.wiki.
+- Files changed: `src/data/ads.ts`.
+- URLs affected: None. No component, layout, or page structure modified.
+- Ad baseline: All six placeholder values replaced with the Adsterra dashboard codes; the on-page modules and copy remain unchanged.
+
 ### 2026-08-12 - Static discovery and review freshness baseline added
 
 - Task: Add locale-aware static search, automatic recent updates, visible review dates, and browser metadata/security defaults to the shared template.
