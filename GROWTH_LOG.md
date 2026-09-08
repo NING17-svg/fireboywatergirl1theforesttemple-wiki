@@ -6,6 +6,14 @@ Record every growth-relevant edit here. Keep entries short, factual, and useful 
 
 ## Change Log
 
+### 2026-09-08 - Solo walkthrough, Steam achievements, and Remote Play Together pages added
+
+- Task: Add three new wiki pages to fireboywatergirl1theforesttemple.wiki: a solo Forest Temple chapter walkthrough, the actual Steam achievements page (two achievements), and a Steam Remote Play Together setup page.
+- Files changed: `src/data/pages/fixed-pages.ts`, `src/data/pages/home.ts`, `src/data/navigation.ts`, `src/data/faq.ts`, `CONTENT_INDEX.md`.
+- URLs added: `/forest-temple-chapter-walkthrough`, `/achievements`, `/how-to-play-online`.
+- Content changed: Solo walkthrough teaches park-and-switch rhythm, box-as-pressure-plate holds, and water-safe / fire-safe / green-gem pickup order. Achievements page lists the actual two Steam achievements ("Complete all the levels" and "Get all the green gems") and clarifies that green gems are separate from diamonds. How-to-play-online documents Steam Remote Play Together as the supported online co-op workaround for AppID 5084260.
+- Internal links: Home page entity-grid, primary navigation, relatedPageIds, and FAQ items now surface the three new pages.
+
 ### 2026-09-06 - Adsterra six-unit codes wired into canonical ads config
 
 - Task: Populate the standard `src/data/ads.ts` with the six real Adsterra placement codes (Native Banner, Banner 728x90, Banner 468x60, Banner 320x50, Banner 160x600, Smartlink) for fireboywatergirl1theforesttemple.wiki.

@@ -12,8 +12,11 @@ export const primaryNavigation: LocalizedNavigationItem[] = [
   { href: "/controls/", labels: { "en-US": "Controls & Co-op" } },
   { href: "/walkthrough/", labels: { "en-US": "Walkthrough" } },
   { href: "/levels/", labels: { "en-US": "Levels" } },
+  { href: "/forest-temple-chapter-walkthrough/", labels: { "en-US": "Chapter Walkthrough" } },
   { href: "/diamonds/", labels: { "en-US": "Diamonds" } },
   { href: "/element-traps/", labels: { "en-US": "Element Traps" } },
+  { href: "/achievements/", labels: { "en-US": "Achievements" } },
+  { href: "/how-to-play-online/", labels: { "en-US": "Play Online" } },
   { href: "/where-to-play/", labels: { "en-US": "Where to Play" } },
   { href: "/reviews/", labels: { "en-US": "Reviews" } },
 ];

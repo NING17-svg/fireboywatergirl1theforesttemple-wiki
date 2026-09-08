@@ -66,7 +66,7 @@ export const faqItems: FAQItem[] = [
     question: "How do the cooperative controls work?",
     answer:
       "The original Oslo Albet design places Fireboy on WASD or arrow keys and Watergirl on the arrow keys as a paired second player on one keyboard; the Steam build adds controller support and Steam Cloud.",
-    pageIds: ["controls-coop", "home"],
+    pageIds: ["controls-coop", "home", "how-to-play-online"],
     category: "gameplay",
     schemaEligible: true,
     sourceStatus: "official",
@@ -76,7 +76,7 @@ export const faqItems: FAQItem[] = [
     question: "Does the Steam release support online multiplayer?",
     answer:
       "Steam online multiplayer beyond local co-op is Not announced as of 2026-09-06. The Steam build supports local two-player co-op on one keyboard.",
-    pageIds: ["controls-coop", "where-to-play"],
+    pageIds: ["controls-coop", "where-to-play", "how-to-play-online"],
     category: "gameplay",
     schemaEligible: true,
     sourceStatus: "official",
@@ -96,7 +96,7 @@ export const faqItems: FAQItem[] = [
     question: "How do I unlock the perfect ending?",
     answer:
       "Collect every diamond (gem) in each Forest Temple level before reaching the exit; water-safe and fire-safe diamonds require Fireboy and Watergirl to work together.",
-    pageIds: ["diamonds-gems", "element-traps"],
+    pageIds: ["diamonds-gems", "element-traps", "forest-temple-chapter-walkthrough", "achievements"],
     category: "gameplay",
     schemaEligible: true,
     sourceStatus: "official",
@@ -106,7 +106,7 @@ export const faqItems: FAQItem[] = [
     question: "What are the element trap rules?",
     answer:
       "Fireboy fears water, Watergirl fears fire, and both characters fear green goo, poison pools, and lava; simultaneous-button cooperative triggers require both characters on switches at the same time.",
-    pageIds: ["element-traps", "controls-coop", "home", "walkthrough-overview"],
+    pageIds: ["element-traps", "controls-coop", "home", "walkthrough-overview", "forest-temple-chapter-walkthrough"],
     category: "gameplay",
     schemaEligible: true,
     sourceStatus: "official",
@@ -128,6 +128,46 @@ export const faqItems: FAQItem[] = [
       "The Steam Community hub discussion threads and the Popular Coming Soon rank #17 launch-window signal are the first places to check; Steam review aggregation goes live once reviews open on the store page.",
     pageIds: ["reviews-press", "home"],
     category: "site",
+    schemaEligible: true,
+    sourceStatus: "official",
+  },
+  {
+    id: "solo-play-strategy",
+    question: "Can I play the Forest Temple chapter alone?",
+    answer:
+      "Yes. Solo play uses the park-and-switch rhythm, box-as-pressure-plate holds to bypass simultaneous-button triggers, and a water-safe / fire-safe / green-gem pickup order. See the chapter walkthrough for the full method.",
+    pageIds: ["forest-temple-chapter-walkthrough", "controls-coop"],
+    category: "gameplay",
+    schemaEligible: true,
+    sourceStatus: "official",
+  },
+  {
+    id: "steam-achievements",
+    question: "How many Steam achievements does Forest Temple have?",
+    answer:
+      "The Steam release on AppID 5084260 lists exactly two achievements: Complete all the levels, and Get all the green gems. Green gems are a separate collectible from diamonds.",
+    pageIds: ["achievements", "diamonds-gems"],
+    category: "gameplay",
+    schemaEligible: true,
+    sourceStatus: "official",
+  },
+  {
+    id: "green-gems-vs-diamonds",
+    question: "Are green gems the same as diamonds?",
+    answer:
+      "No. Diamonds (cyan water-safe and red fire-safe) gate the per-level exit. Green gems are a separate collectible that feeds the second Steam achievement only; they do not affect the level exit.",
+    pageIds: ["achievements", "diamonds-gems"],
+    category: "gameplay",
+    schemaEligible: true,
+    sourceStatus: "official",
+  },
+  {
+    id: "remote-play-together",
+    question: "How do I play Forest Temple online with a friend?",
+    answer:
+      "Use Steam Remote Play Together on AppID 5084260. The host launches the game and invites the friend through the Steam overlay; the friend streams from the host's machine and uses a virtual controller for Watergirl. Native online multiplayer is not announced as of 2026-09-06.",
+    pageIds: ["how-to-play-online", "controls-coop", "where-to-play", "home"],
+    category: "platform",
     schemaEligible: true,
     sourceStatus: "official",
   },

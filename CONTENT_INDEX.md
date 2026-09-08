@@ -12,15 +12,20 @@ hreflang, sitemap, and route-manifest validation.
 
 | URL | File/Route | Type | Primary Keyword | Search Intent | Primary CTA | Internal-Link Role | Notes |
 |---|---|---|---|---|---|---|---|
-| `/` | `src/data/pages/home.ts` | Landing | Template Game guide | Find the best entry point | Open Wiki / Browse Guides | Hub | Replace with the configured game's main hub intent. |
-| `/wiki` | `src/data/pages/wiki-pages.ts` | Guide | Template Game wiki | Understand confirmed facts | Guides / FAQ | Hub | Keep official fact base and source context here. |
-| `/guides` | `src/data/pages/guide-pages.ts` | Guide | Template Game guides | Find guide topics before launch | Wiki / Release Info | Hub | Do not invent walkthroughs before reliable details exist. |
-| `/release-date` | `src/data/pages/release-pages.ts` | Guide | Template Game release date | Check release timing and platforms | FAQ / Wiki | Supporting hub | Must stay tied to official or store sources. |
-| `/faq` | `src/data/pages/site-pages.ts` | Guide | Template Game FAQ | Get short answers | Release Info / Contact | Answer hub | FAQ schema enabled. |
-| `/about` | `src/data/pages/site-pages.ts` | Utility | about Template Game Guide | Trust and editorial policy | Contact | Trust | Explain unofficial status and sourcing rules. |
-| `/contact` | `src/data/pages/site-pages.ts` | Utility | contact Template Game Guide | Corrections and source updates | About | Trust | Contact channel pending. |
-| `/privacy-policy` | `src/data/pages/site-pages.ts` | Legal | privacy policy | Privacy and analytics | Terms | Trust | GA4 only when configured. |
-| `/terms` | `src/data/pages/site-pages.ts` | Legal | terms of use | Site use expectations | Privacy Policy | Trust | Keep unofficial disclaimer clear. |
+| `/` | `src/data/pages/home.ts` | Landing | Fireboy and Watergirl 1 The Forest Temple Steam hub | Find the best entry point | Release / Walkthrough | Hub | Unofficial launch hub for AppID 5084260. |
+| `/release` | `src/data/pages/fixed-pages.ts` | Release | Forest Temple Steam release date | Check release timing and platforms | System Requirements / Where to Play | Supporting hub | Steam store page AppID 5084260, September 1, 2026. |
+| `/system-requirements` | `src/data/pages/fixed-pages.ts` | Release | Forest Temple system requirements | Confirm supported OS and feature flags | Release / Steam vs Flash | Supporting hub | Windows, Mac, Linux; numeric tiers Not announced. |
+| `/steam-version` | `src/data/pages/fixed-pages.ts` | Release | Forest Temple Steam version vs Flash | Compare Steam release to 2009 Flash original | Release / Controls | Supporting hub | Steam additions: Cloud, achievements, controller. |
+| `/controls` | `src/data/pages/fixed-pages.ts` | Guide | Forest Temple controls and co-op | Keyboard, controller, two-player local co-op | Steam vs Flash / Where to Play | Guide | WASD / arrow-key layout from 2009 Oslo Albet original. |
+| `/walkthrough` | `src/data/pages/fixed-pages.ts` | Wiki | Forest Temple walkthrough hub | Find progression content sections | Levels / Diamonds | Hub | Links to per-section Forest Temple content. |
+| `/levels` | `src/data/pages/fixed-pages.ts` | Wiki | Forest Temple level list and order | See chapter level order and diamond gating | Walkthrough / Diamonds | Reference | ~30 levels from 2009 Flash original. |
+| `/forest-temple-chapter-walkthrough` | `src/data/pages/fixed-pages.ts` | Wiki | Forest Temple solo walkthrough | Solo park-and-switch rhythm and box pressure-plate holds | Levels / Diamonds | Guide | New 2026-09-08 solo-play chapter walkthrough. |
+| `/diamonds` | `src/data/pages/fixed-pages.ts` | Guide | Forest Temple diamonds and perfect ending | Find water-safe and fire-safe diamonds | Levels / Element Traps | Reference | Diamonds gate the level exit. |
+| `/element-traps` | `src/data/pages/fixed-pages.ts` | Wiki | Forest Temple element rules and traps | Fire / water / green goo / poison / lava rules | Controls / Levels | Reference | Per-character and shared hazards. |
+| `/achievements` | `src/data/pages/fixed-pages.ts` | Guide | Forest Temple Steam achievements | See the actual two achievements and green-gem rules | Chapter Walkthrough / Diamonds | Guide | New 2026-09-08 Steam achievements page. |
+| `/how-to-play-online` | `src/data/pages/fixed-pages.ts` | Guide | Forest Temple how to play online | Use Steam Remote Play Together as online co-op workaround | Controls / Where to Play | Guide | New 2026-09-08 Remote Play Together setup page. |
+| `/where-to-play` | `src/data/pages/fixed-pages.ts` | Release | Forest Temple where to play online | Pick a purchase channel or browser mirror | Release / Controls | Supporting hub | Steam canonical, browser mirrors as alternatives. |
+| `/reviews` | `src/data/pages/fixed-pages.ts` | Release | Forest Temple Steam reviews | Track launch-window Popular Coming Soon and review tab | Release / Steam vs Flash | Supporting hub | Popular Coming Soon rank #17 launch-window signal. |
 
 ## Generated Route Families
 
@@ -31,18 +36,24 @@ hreflang, sitemap, and route-manifest validation.
 
 ## Content Clusters
 
-- Launch facts: `/release-date`, `/faq`
-- Official facts and safe guide structure: `/wiki`, `/guides`
-- Evergreen hub and trust: `/`, `/about`, `/contact`, `/privacy-policy`, `/terms`
+- Launch facts: `/release`, `/system-requirements`, `/where-to-play`
+- Progression guides: `/walkthrough`, `/levels`, `/forest-temple-chapter-walkthrough`, `/diamonds`, `/element-traps`, `/achievements`
+- Co-op and play options: `/controls`, `/how-to-play-online`, `/steam-version`
+- Reception: `/reviews`
+- Hub: `/`
 
 ## Internal Linking Map
 
-- Homepage should link to the most current high-demand pages.
-- Wiki should link to guide and release pages.
-- Guides should link to wiki and release pages.
-- Release Date should link to FAQ and official sources.
+- Homepage should link to the most current high-demand pages (release, walkthrough, chapter walkthrough, achievements, play online).
+- Walkthrough hub links to `/levels`, `/forest-temple-chapter-walkthrough`, `/diamonds`, `/element-traps`, `/controls`.
+- Chapter walkthrough links to `/levels`, `/diamonds`, `/element-traps`, `/controls`, `/achievements`, `/how-to-play-online`.
+- Achievements links to `/forest-temple-chapter-walkthrough`, `/diamonds`, `/levels`.
+- How-to-play-online links to `/controls`, `/where-to-play`, `/steam-version`, `/system-requirements`.
+- Where to play links to `/release`, `/controls`.
 - FAQ should include all current high-demand answer pages.
 
 ## Open Questions
 
-- Replace this section with game-specific unknowns during content configuration.
+- Per-level green-gem counts beyond the 2009 Oslo Albet baseline are not announced as of 2026-09-06.
+- Specific Steam achievement icons, global completion percentages, and Steam-vs-Flash level additions are not announced as of 2026-09-06.
+- Native Steam online multiplayer beyond local co-op is not announced as of 2026-09-06.

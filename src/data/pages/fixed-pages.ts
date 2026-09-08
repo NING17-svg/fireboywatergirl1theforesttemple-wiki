@@ -682,6 +682,316 @@ export const fixedPages: PageContent[] = [
     lastReviewed: "2026-09-06",
   },
   {
+    id: "forest-temple-chapter-walkthrough",
+    translationKey: "forest-temple-chapter-walkthrough",
+    locale: "en-US",
+    routeKind: "fixed",
+    slug: "forest-temple-chapter-walkthrough",
+    url: "/forest-temple-chapter-walkthrough",
+    pageType: "wiki",
+    presentation: shellFor("content", "reading-right-rail"),
+    h1: "Fireboy and Watergirl 1 The Forest Temple chapter walkthrough: solo play strategy",
+    seoTitle: "Forest Temple chapter walkthrough and solo play strategy",
+    metaDescription:
+      "Fireboy and Watergirl 1 The Forest Temple chapter walkthrough: solo park-and-switch rhythm, box-as-pressure-plate holds, diamond and green-gem pickup order for every Forest Temple level.",
+    summary:
+      "Solo-play walkthrough for the Forest Temple chapter on the standalone Steam release on AppID 5084260, covering the park-and-switch rhythm, box-as-pressure-plate holds, and the diamond and green-gem pickup order.",
+    hero: {
+      eyebrow: "Chapter walkthrough",
+      subtitle:
+        "Solo park-and-switch rhythm, box pressure-plate holds, and per-level diamond and green-gem pickup order for the Forest Temple chapter.",
+      ctas: [
+        { label: "Levels", href: "/levels/" },
+        { label: "Diamonds", href: "/diamonds/" },
+      ],
+    },
+    quickAnswer:
+      "Fireboy and Watergirl 1 The Forest Temple chapter walkthrough for solo play teaches three repeatable habits. Park the active character on safe ground, switch to the idle character to clear the next hazard, then return to the original character. Use a box on a pressure plate when both characters must hold the door open at once. Pick up the water-safe diamonds first with Watergirl, then the fire-safe diamonds with Fireboy, and the green gems last on the levels where they appear. The Forest Temple chapter has about 30 levels from the 2009 Oslo Albet Flash original and the Steam release reuses the same chapter.",
+    keyFacts: [
+      { label: "Solo rhythm", value: "Park-and-switch: stop, switch character, clear, return" },
+      { label: "Pressure-plate holds", value: "Push a box onto the plate so a door stays open alone" },
+      { label: "Diamond order", value: "Water-safe (Watergirl) first, then fire-safe (Fireboy), then green gems" },
+      { label: "Forest Temple chapter scope", value: "About 30 levels (2009 Oslo Albet original)" },
+      { label: "Steam AppID", value: "5084260" },
+    ],
+    modules: [
+      {
+        id: "solo-rhythm",
+        type: "prose",
+        heading: "Solo park-and-switch rhythm",
+        body:
+          "The Forest Temple chapter for a solo player runs on a park-and-switch rhythm. Move one character to a safe tile and stop, then switch to the other character and clear the next hazard or pull the next lever, then return to the parked character. The keyboard layout is Fireboy on WASD or arrows and Watergirl on arrows as the paired second player on one keyboard; solo players swap which character responds to which key by stepping away from one side of the keyboard before pressing the other side's keys. The reason this rhythm works is that most Forest Temple puzzles split the screen into a Fireboy side and a Watergirl side; the first character parks just past the hazard they can cross, and the second character crosses the opposite hazard from the other direction. A common mistake is to try to keep both characters moving at the same time; if both characters move together they almost always collide with a hazard or arrive at a switch at the wrong moment. Park, switch, clear, return is the only rhythm that survives a simultaneous-button trigger without a second human player.",
+      },
+      {
+        id: "box-pressure-plate",
+        type: "prose",
+        heading: "Box-as-pressure-plate holds",
+        body:
+          "When a Forest Temple door is opened by a pressure plate and a single player has to cross that door alone, push a movable box onto the pressure plate to hold the door open while the same character crosses. This is the standard box-as-pressure-plate hold for solo play. The technique works because the box stays on the plate after the character steps off, so a door that would normally snap shut the moment the character leaves the plate stays open until the box is removed. The sequence is: walk one character up to the box, push the box toward the pressure plate, keep pushing until the box sits on the plate, then walk the same character through the door the plate was holding open. After the character is on the other side, leave the box on the plate and switch to the other character to collect diamonds or open the next route. The same pattern works in reverse: pull a box off a plate to close a door behind a character, or stack a box on a plate to keep an elevator up while the other character crosses. Box-as-pressure-plate holds are the single biggest solo-play shortcut in the Forest Temple chapter because they convert simultaneous-button cooperative triggers into single-character puzzles.",
+      },
+      {
+        id: "diamond-order",
+        type: "prose",
+        heading: "Diamond and green-gem pickup order",
+        body:
+          "Plan the Forest Temple chapter diamond and green-gem pickup in a fixed order rather than chasing gems in the order they appear. Step one: collect every water-safe (cyan) diamond with Watergirl first, because water-safe diamonds sit on tiles only Watergirl can stand on and a single Fireboy attempt will kill the run. Step two: collect every fire-safe (red) diamond with Fireboy second, mirroring the same logic on the fire-tinted tiles. Step three: collect the green gems last, because green gems sit in the harder-to-reach nooks of the Forest Temple chapter and picking them up after the diamond quota is complete lets the player ignore the green gems until the chapter-perfect ending is already locked in. The level exit only opens once the per-level diamond counter is full, so the order above guarantees the exit is open before any green-gem attempt. If a green gem is sitting on a hazard tile, do not try to pick it up with either character directly; route the active character to the box-on-pressure-plate hold described above, drop the box on the plate, and pick up the green gem while the box holds the safe tile open.",
+      },
+      {
+        id: "level-order",
+        type: "entity-grid",
+        heading: "Solo-run reference sections",
+        items: [
+          {
+            title: "Levels",
+            summary: "Forest Temple chapter level order and diamond gating.",
+            href: "/levels/",
+          },
+          {
+            title: "Diamonds",
+            summary: "Water-safe, fire-safe, and green-gem color rules.",
+            href: "/diamonds/",
+          },
+          {
+            title: "Element Traps",
+            summary: "Fire, water, green goo, poison, and lava mechanics.",
+            href: "/element-traps/",
+          },
+          {
+            title: "Controls & Co-op",
+            summary: "Keyboard, controller, and simultaneous-button triggers.",
+            href: "/controls/",
+          },
+          {
+            title: "Achievements",
+            summary: "Complete all the levels and Get all the green gems.",
+            href: "/achievements/",
+          },
+          {
+            title: "How to Play Online",
+            summary: "Steam Remote Play Together as the online co-op workaround.",
+            href: "/how-to-play-online/",
+          },
+        ],
+      },
+      {
+        id: "sticky-notes",
+        type: "callout",
+        tone: "tip",
+        title: "Solo-only tweaks to remember",
+        body:
+          "On the Steam release of AppID 5084260 the Fireboy and Watergirl controls and co-op design keeps the original 2009 Oslo Albet keyboard layout. Solo players who feel the controls are slippery should turn off Steam Input overrides, use the keyboard layout described on /controls, and rely on the park-and-switch rhythm rather than trying to play both characters at once. The simultaneous-button triggers still work the same way; a box on a pressure plate is the only way to bypass them solo. Green-gem count, diamond count, and level exits are gated by the same chapter rules as the two-player co-op run.",
+      },
+    ],
+    faqIds: ["solo-play-strategy", "diamond-perfect-ending", "element-rules"],
+    relatedPageIds: [
+      "levels",
+      "diamonds-gems",
+      "element-traps",
+      "controls-coop",
+      "achievements",
+      "how-to-play-online",
+      "walkthrough-overview",
+    ],
+    schemaTypes: ["Article", "BreadcrumbList", "FAQPage"],
+    sourceStatus: "official",
+    lastReviewed: "2026-09-08",
+  },
+  {
+    id: "achievements",
+    translationKey: "achievements",
+    locale: "en-US",
+    routeKind: "fixed",
+    slug: "achievements",
+    url: "/achievements",
+    pageType: "guides",
+    presentation: shellFor("content", "reading-right-rail"),
+    h1: "Fireboy and Watergirl 1 The Forest Temple Steam achievements and how to unlock them",
+    seoTitle: "Forest Temple Steam achievements and unlock conditions",
+    metaDescription:
+      "Fireboy and Watergirl 1 The Forest Temple Steam achievements: the actual two achievements (Complete all the levels, Get all the green gems), unlock conditions, and green-gem levels.",
+    summary:
+      "Steam achievements page for the standalone Forest Temple release on AppID 5084260: the actual two Steam achievements, their unlock conditions, and which Forest Temple levels contain green gems.",
+    hero: {
+      eyebrow: "Achievements",
+      subtitle:
+        "Two Steam achievements on AppID 5084260: Complete all the levels and Get all the green gems, with green-gem levels listed.",
+      ctas: [
+        { label: "Forest Temple Walkthrough", href: "/forest-temple-chapter-walkthrough/" },
+        { label: "Diamonds", href: "/diamonds/" },
+      ],
+    },
+    quickAnswer:
+      "Fireboy and Watergirl 1 The Forest Temple Steam achievements on AppID 5084260 are exactly two: Complete all the levels and Get all the green gems. Complete all the levels unlocks when the player finishes every Forest Temple level. Get all the green gems unlocks when the player collects every green gem across the Forest Temple chapter, and the green gems are a separate collectible from the diamonds; diamonds gate the level exit, while green gems feed the second Steam achievement. Specific Steam achievement icons, global completion percentages, and per-level green-gem counts beyond what the Steam store page lists are Not announced as of 2026-09-06.",
+    keyFacts: [
+      { label: "Steam AppID", value: "5084260" },
+      { label: "Total achievement count", value: "2" },
+      { label: "Achievement 1", value: "Complete all the levels" },
+      { label: "Achievement 2", value: "Get all the green gems" },
+      { label: "Green gem vs diamond", value: "Green gems are a separate collectible from diamonds" },
+      { label: "Diamond gating", value: "Required per level; not the second achievement" },
+    ],
+    modules: [
+      {
+        id: "achievement-list",
+        type: "prose",
+        heading: "The full Steam achievement list",
+        body:
+          "The Steam store page for AppID 5084260 lists two Steam achievements for Fireboy and Watergirl 1 The Forest Temple. The first is Complete all the levels, which unlocks when the player finishes every Forest Temple level in the chapter. The second is Get all the green gems, which unlocks when the player collects every green gem across the Forest Temple chapter. These two achievements are the complete Steam achievement list for the standalone Steam release as of 2026-09-06; the Steam store page does not list any other achievement for this AppID. Specific achievement icons, unlock text, and global completion percentages beyond the names above are Not announced as of 2026-09-06. The earlier third-party descriptions that framed a single chapter-perfect achievement unlocked by collecting every diamond do not match the actual Steam achievement list, which is split into a level-completion achievement and a separate green-gem collection achievement.",
+      },
+      {
+        id: "green-gems-vs-diamonds",
+        type: "prose",
+        heading: "Green gems are separate from diamonds",
+        body:
+          "The Forest Temple chapter uses two different collectible types. Diamonds (cyan water-safe and red fire-safe gems) gate the per-level exit: the diamond counter must be full before the twin exit doors open. Green gems are a different collectible, do not affect the per-level diamond counter, and do not gate the level exit. Green gems exist to feed the second Steam achievement only. On every Forest Temple level where they appear, green gems sit in harder-to-reach nooks that are easy to skip during a level-clear run. A player who only chases diamonds will finish the chapter with a clean level-completion achievement but no green-gem achievement. The Forest Temple chapter from the 2009 Oslo Albet Flash original places green gems on a subset of levels rather than every level; the per-level green-gem count for the Steam release mirrors that 2009 baseline and is Not announced as a Steam-specific change as of 2026-09-06.",
+      },
+      {
+        id: "green-gem-levels",
+        type: "prose",
+        heading: "Where to find green gems in the Forest Temple chapter",
+        body:
+          "The Forest Temple chapter from the 2009 Oslo Albet Flash original places green gems on specific levels rather than every level. A solo player hunting the Get all the green gems achievement should pair the chapter walkthrough with the diamonds and element-traps pages so they can plan a green-gem pass after the level-exit diamonds are already collected. The chapter walkthrough page describes the box-as-pressure-plate hold technique that lets a single character reach otherwise unreachable green-gem tiles. Players who want to combine the two achievements in one run should follow the solo pickup order on the chapter walkthrough: water-safe diamonds first with Watergirl, fire-safe diamonds second with Fireboy, then green gems last while the box-on-pressure-plate hold keeps the door open. The exact Forest Temple levels that contain green gems are tied to the 2009 Oslo Albet original level list and are visible in the Steam build once the level list is verified post-launch.",
+      },
+      {
+        id: "completion-strategy",
+        type: "prose",
+        heading: "Strategy to unlock both achievements in one run",
+        body:
+          "The fastest way to clear both Steam achievements on AppID 5084260 is to plan the run as three passes rather than one. Pass one: clear every Forest Temple level with the standard diamond quota to unlock Complete all the levels. Pass two: replay the levels that contain green gems and collect every green gem to unlock Get all the green gems. Pass three (optional): replay any level that contains a missed diamond for the chapter-perfect ending. Solo players should use the box-as-pressure-plate hold on every green-gem attempt, because most green gems sit on tiles that are only reachable through a simultaneous-button cooperative trigger that no single character can hold open. The Steam Cloud save support listed on the Steam store page keeps the diamond counter and the green-gem counter in sync across Steam clients, so the run can be resumed on a different machine without losing progress.",
+      },
+    ],
+    faqIds: ["steam-achievements", "diamond-perfect-ending", "green-gems-vs-diamonds"],
+    relatedPageIds: [
+      "forest-temple-chapter-walkthrough",
+      "diamonds-gems",
+      "levels",
+      "walkthrough-overview",
+      "controls-coop",
+    ],
+    schemaTypes: ["Article", "BreadcrumbList", "FAQPage"],
+    sourceStatus: "official",
+    lastReviewed: "2026-09-08",
+  },
+  {
+    id: "how-to-play-online",
+    translationKey: "how-to-play-online",
+    locale: "en-US",
+    routeKind: "fixed",
+    slug: "how-to-play-online",
+    url: "/how-to-play-online",
+    pageType: "guides",
+    presentation: shellFor("content", "reading-right-rail"),
+    h1: "How to play Fireboy and Watergirl 1 The Forest Temple online with Steam Remote Play Together",
+    seoTitle: "How to play Forest Temple online with Steam Remote Play Together",
+    metaDescription:
+      "How to play Fireboy and Watergirl 1 The Forest Temple online using Steam Remote Play Together, including the invite flow, input-share model, latency expectations, and Family Sharing limits.",
+    summary:
+      "How-to-play-online page documenting Steam Remote Play Together as the supported online co-op workaround for the standalone Forest Temple release on AppID 5084260, plus the absence of native online multiplayer.",
+    hero: {
+      eyebrow: "How to play online",
+      subtitle:
+        "Steam Remote Play Together as the supported online co-op workaround for AppID 5084260; native online multiplayer is not announced.",
+      ctas: [
+        { label: "Controls & Co-op", href: "/controls/" },
+        { label: "Where to Play", href: "/where-to-play/" },
+      ],
+    },
+    quickAnswer:
+      "How to play Fireboy and Watergirl 1 The Forest Temple online is answered by Steam Remote Play Together on the standalone Steam release of AppID 5084260. The host launches the Steam build, invites a friend through Steam Remote Play Together, and the friend streams the game from the host's machine and shares the controller or keyboard. Native Steam online multiplayer beyond local co-op is not announced as of 2026-09-06. Steam Family Sharing cannot be used to co-op a single purchase across two machines because both players need to operate the same keyboard at the same time on the host.",
+    keyFacts: [
+      { label: "Online co-op workaround", value: "Steam Remote Play Together on AppID 5084260" },
+      { label: "Native online multiplayer", value: "Not announced as of 2026-09-06" },
+      { label: "Input model", value: "Friend streams from host; both players share the host keyboard" },
+      { label: "Family Sharing co-op", value: "Not supported (one keyboard, one machine)" },
+      { label: "Voice chat", value: "Steam friend chat during the Remote Play Together session" },
+    ],
+    modules: [
+      {
+        id: "remote-play-setup",
+        type: "steps",
+        heading: "How to set up Steam Remote Play Together for Forest Temple",
+        items: [
+          {
+            title: "Confirm the host owns AppID 5084260",
+            body:
+              "Only the host needs to own Fireboy and Watergirl 1 The Forest Temple on Steam AppID 5084260. The friend joins the Remote Play Together session without buying a copy. The friend must be on the host's Steam friends list.",
+            doneCondition:
+              "The Forest Temple AppID 5084260 is in the host's Steam library and the friend is on the Steam friends list.",
+          },
+          {
+            title: "Launch the game on the host machine",
+            body:
+              "On the host machine, open the Steam client and launch Fireboy and Watergirl 1 The Forest Temple to the title screen. Remote Play Together requires the host to actually run the game; the friend streams the running game rather than launching a copy on their own machine.",
+            doneCondition:
+              "The host's Steam client shows Forest Temple running and the title screen is visible on the host display.",
+          },
+          {
+            title: "Open the Steam overlay and invite the friend",
+            body:
+              "Press Shift+Tab to open the Steam overlay, click the friend's name in the friends list, and choose Remote Play Together > Invite to Remote Play. Steam sends the invite through Steam friend chat, and the friend accepts it from their own Steam client.",
+            doneCondition:
+              "The friend receives the Remote Play Together invite and accepts it.",
+          },
+          {
+            title: "Friend accepts and the stream starts",
+            body:
+              "Once the friend accepts, Steam starts the Remote Play stream from the host's machine to the friend's client. The friend now sees the host's Forest Temple session with their own input mapping. The friend plays Watergirl through a virtual controller; the host plays Fireboy on the same keyboard.",
+            doneCondition:
+              "The friend sees the host's Forest Temple session stream and can press buttons.",
+          },
+          {
+            title: "Use Steam voice chat during the session",
+            body:
+              "Use Steam friend voice chat during the Remote Play Together session to coordinate Fireboy and Watergirl timing. The voice chat is end-to-end inside the Steam client and does not require any third-party app.",
+            doneCondition:
+              "Both players confirm they can hear each other and can coordinate moves.",
+          },
+        ],
+      },
+      {
+        id: "input-share",
+        type: "prose",
+        heading: "How the input-share model works",
+        body:
+          "Steam Remote Play Together streams the host's running Forest Temple session to the friend and lets the friend send input back to the host's machine through Steam's virtual controller. The host sits at one keyboard and runs Fireboy on WASD or the arrows, the friend uses a Steam virtual controller (or a real controller mapped through Steam Input) to run Watergirl. This preserves the original 2009 Oslo Albet co-op layout (Fireboy on WASD, Watergirl on arrows) while still letting the two players sit on different networks. The host does not need to remap the keyboard for the friend; the friend is treated as a second input device by Steam Input. If the host prefers the keyboard for both characters and the friend only on a controller, that works too, as long as the simultaneous-button cooperative triggers are timed across both inputs.",
+      },
+      {
+        id: "latency",
+        type: "prose",
+        heading: "Latency expectations and when Remote Play Together will struggle",
+        body:
+          "Steam Remote Play Together latency depends on the upstream bandwidth of the host and the network round-trip between the two players. For Fireboy and Watergirl 1 The Forest Temple specifically, the latency tolerance is generous because the Forest Temple chapter is a turn-based puzzle rather than a twitch shooter: the simultaneous-button cooperative triggers need two characters to step on switches within roughly half a second of each other, not within the same frame. A reasonable home broadband connection on both sides is enough to make Remote Play Together playable. Remote Play Together will struggle when the host's upload bandwidth is low (under 5 Mbps), when either player's network round-trip is over 100 ms, or when the host's machine is doing heavy other work. Players who see Remote Play Together rubber-banding should check Steam's network indicator in the overlay; if the indicator shows red, drop the stream quality or close other apps on the host.",
+      },
+      {
+        id: "family-sharing",
+        type: "callout",
+        tone: "caution",
+        title: "Family Sharing does not enable Remote Play co-op",
+        body:
+          "Steam Family Sharing lets a family member launch a game they do not own, but it does not let two players operate one keyboard on one machine from two Steam accounts. Forest Temple co-op requires both characters to share the same keyboard and the same machine in real time; Family Sharing does not create that shared-keyboard scenario. To play Forest Temple with a friend in a different location, use Steam Remote Play Together on AppID 5084260 as described above. Native Steam online multiplayer beyond local co-op is not announced as of 2026-09-06.",
+      },
+      {
+        id: "native-online",
+        type: "callout",
+        tone: "unknown",
+        title: "Native online multiplayer",
+        body:
+          "Steam online multiplayer beyond local co-op for Fireboy and Watergirl 1 The Forest Temple on AppID 5084260 is not announced as of 2026-09-06. The Steam store page lists Steam Cloud and controller support, but it does not list Steam Remote Play Together as a published feature; Remote Play Together is a Steam-platform-level capability that any game can opt into, which is why it works for Forest Temple even though the store page does not advertise it. If a future update adds native online multiplayer, this page will be updated to reflect the new feature.",
+      },
+    ],
+    faqIds: ["online-multiplayer", "remote-play-together", "controls-coop"],
+    relatedPageIds: [
+      "controls-coop",
+      "where-to-play",
+      "steam-version-vs-flash",
+      "system-requirements",
+      "forest-temple-chapter-walkthrough",
+    ],
+    schemaTypes: ["Article", "BreadcrumbList", "FAQPage"],
+    sourceStatus: "official",
+    lastReviewed: "2026-09-08",
+  },
+  {
     id: "reviews-press",
     translationKey: "reviews-press",
     locale: "en-US",
